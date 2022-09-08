@@ -1,2 +1,2 @@
-# PAIv2
+# PAI
 Szymon Zimecki to Szefu
