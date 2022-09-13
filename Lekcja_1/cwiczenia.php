@@ -12,7 +12,6 @@
 
 		echo "Hello World" . "<br>" . $mycounter . "<br>" . "Hello Friend"
 
-
 	?>
 
 
