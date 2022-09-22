@@ -12,7 +12,14 @@
 
 		for($liczba = -11; $liczba <= 11; ++$liczba)
 		{
+			if($liczba % 5 == 0)
+			{
+				continue;
+			}
+			
 			echo "$liczba";
+			echo "<br>";
+			
 		}
 		
 	?>
