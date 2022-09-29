@@ -27,7 +27,6 @@
     }
 	
 	echo "<br><hr> Pierwszy ruch <br><br><br>";
-	echo "";
 	
 	$chessboard [4][5] = "P";
 	$chessboard [6][5] = " ";
