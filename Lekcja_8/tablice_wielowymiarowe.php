@@ -30,7 +30,7 @@
 					if($key == 'copier' OR $key == 'ball' OR $key == 'tape')
 						echo $section ."\t" . $key ."\t" . $value . "<br>";
             echo "</pre>";
-		
+	
 	?>
 
 
