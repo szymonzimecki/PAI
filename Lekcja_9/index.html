@@ -1,0 +1,59 @@
+﻿<html>
+
+
+	<head>
+		<title> Strona Szefa 2 </title>
+		<link rel="stylesheet" href="main.css">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+	
+	<div id="tytul"><h3>Tworzenie postaci</h3></div>
+	
+	<div id="all">
+
+		<!--- Imie & Nazwisko --->
+		<div id="inputy">
+		 	<label id="label" for="imie">Podaj nazwe:</label><br>
+		  	<input class="input" type="text" id="imie" name="imie" placeholder="Nazwa"><br>
+		</div>
+			
+		
+			<!--- Plec --->
+		<div id="plec">	
+			<p>Podaj plec:</p>
+			<input type="radio" id="man" name="plec" value="Mezczyzna">
+			<label for="man">Mezczyzna</label><br>
+
+			<input type="radio" id="woman" name="plec" value="Kobieta">
+			<label for="woman">Kobieta</label><br>
+		</div>
+		
+
+			<!--- Klasa --->
+			<p>Wybierz klase</p>
+		<div id="klasa">
+			<select id="select">
+				<option selected disabled>Wybierz</option>
+				<option value="0">Wojownik</option>
+				<option value="1">Łucznik</option>
+				<option value="2">Mag</option>
+				<option value="3">Rolnik</option>
+			</select>
+			<br>
+			<input type="button" value="Utworz"  id="butt" onclick="allRun()">
+		</div>
+
+	</div>
+
+	<p style="text-align: center;" id="wypisz"></p>
+	
+	<div>
+		<div id="autor"><h3><br>Autor: Zimecki Szymon</h3></div>
+	</div>
+	
+	</body>
+
+
+</html>
