@@ -24,9 +24,17 @@
 		if(isset($_POST['haslo'])){
 			echo "<b>Twoje haslo: </b>" . sha1(htmlspecialchars($_POST['haslo'])) . ". ";
 		}
+		
         else{
             echo "Nie podales loginu lub hasla.";
         }
+
+        if(isset($_POST['Check'])){
+		    echo "<br> Zaznaczyłeś Tak.";
+		    }
+		else{
+		    echo "<br>Nie zaznaczyłeś Tak";
+		}
 		
 	?>
 
