@@ -38,6 +38,21 @@
 		if(isset($_POST['plec'])){
 		    if($_POST['plec'] == 'm')
 		    	echo "<br><b>Wybrana płeć:</b> Mężczyzna";
+<<<<<<< HEAD
+		    if($_POST['plec'] == 'k')
+		    	echo "<br><b>Wybrana płeć:</b> Kobieta";
+		    if($_POST['plec'] == 'n')
+		    	echo "<br><b>Wybrana płeć:</b>Nie chce podawać";
+		}
+
+		//CheckBox
+		if(isset($_POST['Check'])){
+		    for($i=0; $i<count($_POST['Check']); $i++){
+		        echo "<br><b>CheckBox:</b> " . $_POST['Check'][$i];
+		    }
+		}
+
+=======
 		}
 
 		elseif(isset($_POST['plec'])){
@@ -60,6 +75,7 @@
 		    echo "<br>Nie wybrano ani jednego CheckBoxa.";
 		}
 
+>>>>>>> 663eeb66f12721123b57b0af43fff8a1f4f20689
 		//Select
 		if(isset($_POST['cars'])){
 		    echo "<br><b>Wybrane auto:</b> " . $_POST['cars'];
